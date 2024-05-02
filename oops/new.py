@@ -13,3 +13,4 @@ def sum(a,target):
 a=[1,2,3,5,6,7,8,9,3]
 target=7
 print(sum(a,target))
+print("hello")

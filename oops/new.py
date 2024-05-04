@@ -1,16 +1,11 @@
-def sum(a,target):
+nums1= [1,2,3,0,0,0]
+nums1= [x for x in nums1 if x != 0]
 
-    count1=0
-    count2=0
-    for i in a:
-        count1 += 1
-        for j in a:
-         
-            if i+j==target:
-                 count2 += 1
-                 return count2,count1
+nums2 =[4,5,6]
 
-a=[1,2,3,5,6,7,8,9,3]
-target=7
-print(sum(a,target))
-print("hello")
+for i in nums1:
+    nums2.append(i)  
+
+nums2.sort()        
+print(nums2)        
+    
